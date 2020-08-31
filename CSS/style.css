@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+}
+
+/* VARIABLES  */
+
+.div{
+    --color-googleblue: #1a73e8;
+
+    --color-link-main: #1a0dab;
+    --disc-color: #545454;
+    --disc-color-lt: #70757a;
+
+    --box-border: solid 1px ;
+}
+
+
+/* NAVIGATION CSS  */
+
+#nav{
+    padding: 28px 25px 0px 25px;
+    border-bottom: solid 1px #e3e5e7;
+}
+
+#logo{   
+    display: inline-block;
+    background-color: aqua;
+    background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 90px;
+    height: 90px;
+}
+
+#search-nav{
+    display: inline-block;
+    background-color: blue;
+    margin-left: 50px;
+    width: 700px;
+    height: 90px;
+
+}
+
+#apps-prof{
+    background-color: rgb(43, 40, 46);
+    float: right;
+    width: 200px;
+    height: 90px;
+
+}
+
+
+
+/* RESULTS CSS */
+
+#results{
+    background-color: blue;
+    margin-left: 169px;
+    width: 700px;
+
+}
+
+.result-url{
+    color: #006621;
+}
+
+/* FOOTER CSS  */
