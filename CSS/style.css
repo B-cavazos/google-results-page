@@ -109,13 +109,6 @@ h3{
     margin: 10px 0px 30px 0px;
 }
 
-.link-blue{
-}
-
-.link-green{
-    color: #006621;
-}
-
 .results-disc{
     letter-spacing: -.25pt;
 }
@@ -154,6 +147,22 @@ h3{
     font-style: italic;
     position: relative;
     right: 50px;
+}
+
+/* RELATED SEARCHES CSS */
+
+.related-list{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 20px;
+
+}
+
+.related-links{
+    display: block;
+    font-size: 14px;
+    padding-bottom: 4px;
+
 }
 
 /* FOOTER CSS  */
