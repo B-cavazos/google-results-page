@@ -15,17 +15,30 @@ cite{
     font-size: 12pt;
 }
 
+li{
+list-style-type: none;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
 /* VARIABLES  */
 
 :root{
     --color-googleblue: #1a73e8;
-
+    --color-header: black;
     --color-link-main: #1a0dab;
     --disc-color: #545454;
     --disc-color-lt: #70757a;
     --cite-color: green;
+    --color-border: rgb(219, 214, 214);
 
-    --box-border: solid 1px ;
+    --box-border: solid 1px var(--color-border);
+    --border-radius: 10px;
 }
 
 
@@ -66,14 +79,14 @@ cite{
 h3{
     font-size: 15pt;
     font-weight: normal;
-    color: black;
+    color: var(--color-header);
 }
 
 
 /* RESULTS CSS */
 
 #results{
-    background-color: rgb(209, 209, 209);
+    /* background-color: rgb(209, 209, 209); */
     margin-left: 180px;
     width: 650px;
     font-size: 11pt;
@@ -105,6 +118,42 @@ h3{
 
 .results-disc{
     letter-spacing: -.25pt;
+}
+
+/* VIDEO RESULTS CSS */
+
+#results-videos-container{
+    width: 100%;
+}
+
+.results-video{
+    display: inline-block;
+    width: 200px;
+    height: 250px;
+    margin: 15px 11px 15px 0px;
+    border: var(--box-border);
+    border-radius: var(--border-radius);
+}
+
+
+/* ALSO ASK CSS */
+
+#results-alsoask{
+    border: var(--box-border);
+    border-radius: var(--border-radius);
+}
+
+.li-alsoask{
+    padding: 10px 20px;
+    border-bottom: solid 1px var(--color-border);
+}
+
+.feedback{
+    color: var(--disc-color-lt);
+    font-size: 10pt;
+    font-style: italic;
+    position: relative;
+    right: 50px;
 }
 
 /* FOOTER CSS  */
