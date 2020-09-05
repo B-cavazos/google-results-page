@@ -135,10 +135,18 @@ h3{
     border: var(--box-border);
     border-radius: var(--border-radius);
 }
+.alsoask{
+    padding: 10px 20px;
+}
 
 .li-alsoask{
     padding: 10px 20px;
-    border-bottom: solid 1px var(--color-border);
+    border-top: solid 1px var(--color-border);
+}
+
+.black-link{
+    color: var(--color-header);
+    font-size: 16px;
 }
 
 .feedback{
