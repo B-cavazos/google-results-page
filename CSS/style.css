@@ -27,6 +27,10 @@ h3{
     color: var(--color-header);
 }
 
+.inline{
+    display: inline-block;
+}
+
 .left{
     float: left;
 }
@@ -59,7 +63,6 @@ h3{
 
 #logo{   
     display: inline-block;
-    background-color: aqua;
     background-image: url(https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png);
     background-repeat: no-repeat;
     background-size: contain;
@@ -143,6 +146,7 @@ h3{
     color: var(--disc-color-lt);
 }
 
+
 /* ALSO ASK CSS */
 #results-alsoask{
     border: var(--box-border);
@@ -170,6 +174,46 @@ h3{
     right: 50px;
 }
 
+
+/* IMAGES SEARCHES CSS */
+
+#results-images-container{
+    padding-bottom: 20px;
+}
+
+#images-buttons-container{}
+
+.image-button{
+    border: 1px solid rgb(218, 216, 216);
+    border-radius: 30px;
+    background-color: white;
+    padding: 10px;
+    margin-top: 15px;
+}
+
+#images-thumbnails-container{}
+
+.image-result{
+    display: inline-block;
+    max-width: 160px;
+    height: 120px;
+    object-fit: cover;
+    border: var(--box-border);
+    border-radius: 5px;
+    margin: 10px 5px 10px 0px;
+}
+
+#images-more{
+    font-size: 12pt;
+}
+
+#report{
+    color: var(--disc-color-lt);
+    font-size: 10pt;
+    position: relative;
+    right: 50px;
+}
+
 /* RELATED SEARCHES CSS */
 .related-list{
     display: inline-block;
@@ -191,7 +235,17 @@ h3{
     padding: 5px 0px 5px 180px;
     font-size: 11pt;
     color: var(--disc-color);
-    border-top: solid 1px var(--disc-color-lt);
+    border-top: solid 1px rgb(218, 216, 216);
+}
+
+#circle{
+    display: inline-block;
+    position: relative;
+    top: -18px;
+    background-color: var(--disc-color-lt);
+    border-radius: 100%;
+    height: 10px;
+    width: 10px;
 }
 
 .footer-links{
