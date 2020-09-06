@@ -10,3 +10,7 @@ I expect to struggle with inserting icons and alignment - though I think I know 
 8/31/20
 Worked on wireframing and breaking forming the classes and IDs.
 Started building the navigation section. 
+
+9/05/20
+The bulk of the results page is completed. Utilized variables for the first time and it's already saved me a bit of time (thanks, variables!)
+I learned about reseting the <code>ul</code> to remove indents. 
