@@ -74,8 +74,23 @@ h3{
     display: inline-block;
     margin-left: 50px;
     width: 700px;
-    height: 90px;
+    height: 25px;
 
+}
+
+.NavButtons{
+    display: inline;
+    color:var(--disc-color);
+    font-size: 10.5pt;
+    padding: 10px 15px 10px 10px;
+}
+
+#NavAll{
+    color: #1a0dab;
+}
+
+#NavMore{
+    padding-right: 100px;
 }
 
 .searchButton {
